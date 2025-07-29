@@ -17,6 +17,18 @@ venv.bak/
 .meraki/
 .venv/
 
+# Testing and Coverage
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.cache
+nosetests.xml
+.pytest_cache/
+*.cover
+.hypothesis/
+
 # Logs
 logs/
 *.log
@@ -49,3 +61,9 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
