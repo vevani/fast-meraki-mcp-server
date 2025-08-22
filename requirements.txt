@@ -1,31 +1,16 @@
-# MCP Server dependencies for Python 3.12
-# Core FastMCP framework - latest stable version with null-safe response processing support
+# Fast Meraki MCP Server Dependencies
+
+# Core FastMCP framework with OpenAPI support
 fastmcp>=2.10.6,<3.0.0
 
-# HTTP client for API calls - latest stable version with async support
+# HTTP client with connection pooling
 httpx>=0.28.1,<0.29.0
 
-# Environment variable management
+# Environment configuration
 python-dotenv>=1.0.1,<2.0.0
 
-# Enhanced logging (optional, FastMCP has built-in logging)
-loguru>=0.7.2,<0.8.0
-
-# Data validation and serialization for enhanced type safety
+# Data validation
 pydantic>=2.6.0,<3.0.0
 
-# Type annotations support for better development experience
+# Type hints support
 typing-extensions>=4.8.0,<5.0.0
-
-# FastMCP-compliant dependencies for null-safe processing
-# JSON handling and path manipulation (built-in modules)
-# asyncio support (built-in module)
-
-# Development and testing dependencies (uncomment for development)
-# pytest>=8.0.0,<9.0.0
-# pytest-asyncio>=0.23.0,<0.24.0
-# pytest-httpx>=0.29.0,<0.30.0
-
-# Production deployment dependencies
-# uvicorn>=0.27.0,<0.28.0  # For ASGI server if needed
-# gunicorn>=21.2.0,<22.0.0  # For production deployment
